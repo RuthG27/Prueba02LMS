@@ -1,0 +1,132 @@
+:root {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Street;
+  src: url("../assets/fonts/street.otf");
+}
+
+body {
+  background-image: url("../assets/img/fondo2.jpg");
+  background-size: cover;
+}
+h1 {
+  font-family: "Street";
+  font-size: 46px;
+  color: crimson;
+  text-align: center;
+}
+.cabeceraTable {
+  background-image: url("../assets/img/039.png");
+  background-size: contain;
+}
+
+.cabeceraImg {
+  background-image: url("../assets/img/fondocabecera.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+.cabeceraTitle {
+  font-family: "Street";
+  color: whitesmoke;
+  font-size: 40px;
+  text-align: center;
+}
+table {
+  width: 600px;
+  height: 600px;
+  border-spacing: 4px;
+  border: 10px outset RGB(237, 175, 5);
+  background-color: black;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+td {
+  width: 40px;
+  height: 40px;
+  border: 1px outset gray;
+  border-radius: 10px;
+}
+img {
+  width: 100px;
+  height: 100px;
+  margin-left: 15px;
+}
+.name {
+  font-family: "Street";
+  font-size: 18px;
+  color: darkorange;
+  text-align: center;
+  text-transform: capilize;
+}
+
+/* FORMULARIO */
+h2 {
+  font-family: "Street";
+  font-size: 28px;
+  color: crimson;
+  text-align: center;
+  margin-top: 70px;
+}
+.formulario {
+  width: 600px;
+  height: 1100px;
+  border: 10px outset rgb(237, 175, 5);
+  border-radius: 10px;
+  color: white;
+  margin: auto;
+  padding: 20px;
+  background-color: black;
+}
+fieldset {
+  border: 0.1rem solid white;
+  margin: 20px 0;
+  border-radius: 0.6rem;
+}
+.legendForm {
+  font-family: "Street";
+  font-size: 14px;
+  color: rgb(237, 175, 5);
+}
+.personalData label,
+.dataGender label {
+  display: block;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.docs {
+  margin: 10px 0;
+}
+
+textarea {
+  width: 560px;
+  height: 120px;
+}
+
+.formButtons {
+  width: 560px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.formButtons input {
+  width: 200px;
+  height: 76px;
+  font-family: "Street";
+  font-size: 28px;
+  color: white;
+  background-color: crimson;
+  border: 1px solid crimson;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
